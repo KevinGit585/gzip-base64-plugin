@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Gzip&Base64 Codec",
+  "description": "gzip & base64 string.",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icons/icon16.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}

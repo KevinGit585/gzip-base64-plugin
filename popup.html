@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gzip&Base64 Codec</title>
+	<meta name="keywords" content="gzip, base64" />
+    <meta name="description" content="gzip & base64 string." />
+    <meta name="revised" content="v1.0, 11/29/2021" />
+	<meta name="author" content="kissLife" />
+    <script type="text/javascript" src="scripts/popup.js" charset="gb2312"></script>
+	<script type="text/javascript" src="scripts/pako.js"></script>
+  </head>
+  
+  <body>
+    <table width = "100%" border = "0">
+      <tr valign = "top">
+         <td bgcolor="#aaa" width="40%">
+            <textarea id="srcText" rows="36" cols="40">Enter source text here...</textarea>
+         </td>
+	
+         <td bgcolor="#b5dcb3" width="20%">
+	       <button style="height:40px;width:100px" id="base64">base64 =></button></br></br>
+	       <button style="height:40px;width:100px" id="unbase64">unbase64</button></br></br>
+	       <button style="height:40px;width:100px" id="gzipBase64">gzip & base64 =></button></br></br>
+	       <button style="height:40px;width:100px" id="unbase64Gunzip">unbase64 & gunzip =></button></br></br>
+	       <a href = "mailto: kevinchen.hao@163.com">Feedback</a>
+         </td>
+	
+         <td bgcolor="#aaa" width="40%">
+            <textarea id="dstText" rows="36" cols="40"></textarea>
+         </td>
+      </tr>
+    <table>
+  </body>
+</html>
