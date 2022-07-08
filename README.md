@@ -22,7 +22,7 @@ This plugin is integrated in Chrome browser. Follow the belowing steps to instal
 <br/>
 
 **4. Now you can use this plugin now as follow:**
-
+<br/> ![image](https://github.com/kissLife/gzip-base64-plugin/blob/master/manual.gif)
 
 # License
 - MIT
